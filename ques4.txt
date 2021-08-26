@@ -1,0 +1,14 @@
+Question 4:
+
+1- For this, we can use a LIST. Since they have not specified whether there will be duplicate values or not,
+    assuming that names may be repeated using a List is the best option. 
+    To choose an employee randomly every month we can shuffle the list and choose any record as per requirement.
+
+2- For this use case, we can use a SET since duplicate values are not allowed and the same is not permitted in a set.
+
+3- For this use case, we can use a MAP. A map has key value pairs so the key can have the unique employee
+   names (also key cannot have duplicate values so one name will be counted only once) and the value can be 
+   assigned based on the no. of employees having the same name.
+
+4- For this, we can use a QUEUE. It will have the employees in an order and as per requirement and distribution
+   of tickets they can be added and removed too.
